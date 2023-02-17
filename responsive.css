@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .caixa {
-    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .caixadecores {
@@ -13,7 +14,7 @@
 
   h1 {
     padding: 6px;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 
@@ -24,9 +25,13 @@
   }
 
   .caixadecores {
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .btn {
+    font-size: 20px;
   }
 
   h1 {
