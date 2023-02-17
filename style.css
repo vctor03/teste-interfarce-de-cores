@@ -22,6 +22,7 @@ body {
   cursor: pointer;
   margin-bottom: 20px;
   box-shadow: 1px 1px 10px 5px rgb(19, 22, 22);
+  transition: 0.4s;
 }
 .caixadecores:hover {
   box-shadow: 1px 1px 10px 5px rgb(37, 41, 41);
@@ -44,7 +45,8 @@ body {
 }
 
 .btn {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
   margin: 5px;
   border: none;
   padding: 20px;
@@ -58,20 +60,23 @@ body {
     rgba(113, 114, 116, 1) 73%
   );
   box-shadow: 1px 1px 10px 3px rgb(17, 17, 17);
+  font-size: 16px;
 }
 .btn:hover {
+  transition: 0.5s;
+  color: white;
   box-shadow: 1px 1px 10px 5px rgb(49, 54, 54);
 }
 
 h1 {
   background: linear-gradient(
     0deg,
-    rgb(83, 80, 80) 18%,
+    rgb(41, 38, 38) 18%,
     rgb(39, 38, 38) 39%,
     rgb(20, 20, 20) 73%
   );
-  font-family: "Zeyada", cursive;
-  color: rgb(78, 68, 68);
+  font-family: "Tourney", cursive;
+  color: rgb(87, 85, 85);
   text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
   border-radius: 15px;
   padding: 10px;
