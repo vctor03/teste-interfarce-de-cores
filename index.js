@@ -55,4 +55,4 @@ button8.addEventListener("mouseover", () => {
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal(".caixa", { duration: 7100 });
+sr.reveal(".caixa", { duration: 6500 });
