@@ -6,7 +6,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(33, 33, 33);
+}
+.themewhite body {
+  background-color: rgb(212, 212, 212);
 }
 
 .caixadecores {
@@ -22,7 +25,7 @@ body {
   cursor: pointer;
   margin-bottom: 20px;
   box-shadow: 1px 1px 10px 5px rgb(19, 22, 22);
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .caixadecores:hover {
   box-shadow: 1px 1px 10px 5px rgb(37, 41, 41);
@@ -40,7 +43,7 @@ body {
     rgb(31, 31, 32) 73%
   );
   box-shadow: 1px 5px 30px 6px rgb(15, 15, 15);
-  padding: 30px;
+  padding: 25px;
   border-radius: 14px;
 }
 
@@ -68,7 +71,7 @@ body {
   box-shadow: 1px 1px 10px 5px rgb(49, 54, 54);
 }
 
-h1 {
+.titulo {
   background: linear-gradient(
     0deg,
     rgb(41, 38, 38) 18%,
@@ -80,5 +83,102 @@ h1 {
   text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
   border-radius: 15px;
   padding: 10px;
+  cursor: default;
+}
+
+.icone {
+  font-size: 20px;
+  transition: 0.3s;
+  color: rgb(121, 117, 117);
   cursor: pointer;
+}
+.icone:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px 2px rgb(49, 54, 54);
+}
+
+.themewhite .caixa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(200, 197, 197);
+  background: linear-gradient(
+    0deg,
+    rgba(200, 197, 197, 1) 32%,
+    rgba(205, 204, 204, 1) 39%,
+    rgba(231, 229, 229, 1) 72%
+  );
+  box-shadow: 1px 5px 30px 6px rgb(132, 129, 129);
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.themewhite .btn {
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  margin: 5px;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(164, 164, 164, 1) 32%,
+    rgba(184, 184, 184, 1) 39%,
+    rgba(245, 245, 245, 1) 72%
+  );
+  box-shadow: 1px 1px 10px 3px rgb(213, 209, 209);
+  font-size: 16px;
+}
+.themewhite .btn:hover {
+  transition: 0.5s;
+  color: rgb(17, 16, 16);
+  box-shadow: 1px 1px 10px 5px rgb(177, 180, 180);
+}
+
+.themewhite .titulo {
+  background: rgb(249, 243, 243);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 243, 243, 1) 32%,
+    rgba(241, 236, 236, 1) 39%,
+    rgba(204, 200, 200, 1) 72%
+  );
+  font-family: "Tourney", cursive;
+  color: rgb(23, 22, 22);
+  text-shadow: rgb(194, 189, 189) 0.1em 0.1em 0.2em;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: default;
+}
+
+.themewhite .icone {
+  font-size: 20px;
+  transition: 0.3s;
+  color: rgb(121, 117, 117);
+  cursor: pointer;
+}
+.themewhite .icone:hover {
+  color: rgb(61, 52, 52);
+  box-shadow: 1px 1px 10px 2px rgb(196, 199, 199);
+}
+
+.themewhite .caixadecores {
+  padding: 100px;
+  background: rgb(156, 154, 154);
+  background: linear-gradient(
+    0deg,
+    rgba(156, 154, 154, 1) 32%,
+    rgba(159, 156, 156, 1) 39%,
+    rgba(221, 218, 218, 1) 72%
+  );
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 10px 5px rgb(176, 181, 181);
+  transition: 0.3s;
+}
+.themewhite .caixadecores:hover {
+  box-shadow: 1px 1px 10px 5px rgb(153, 158, 158);
 }
