@@ -14,12 +14,12 @@ body {
 
 .caixadecores {
   padding: 100px;
-  background: rgb(32, 30, 31);
+  background: rgb(88, 87, 87);
   background: linear-gradient(
     0deg,
-    rgba(32, 30, 31, 1) 18%,
-    rgba(32, 30, 31, 1) 39%,
-    rgba(113, 114, 116, 1) 73%
+    rgba(88, 87, 87, 1) 32%,
+    rgba(88, 85, 85, 1) 39%,
+    rgba(140, 140, 140, 1) 72%
   );
   border-radius: 15px;
   cursor: pointer;
@@ -55,12 +55,12 @@ body {
   padding: 20px;
   cursor: pointer;
   border-radius: 20px;
-  background: rgb(32, 30, 31);
+  background: rgb(68, 65, 65);
   background: linear-gradient(
     0deg,
-    rgba(32, 30, 31, 1) 18%,
-    rgba(32, 30, 31, 1) 39%,
-    rgba(113, 114, 116, 1) 73%
+    rgba(68, 65, 65, 1) 32%,
+    rgba(84, 79, 79, 1) 39%,
+    rgba(136, 132, 132, 1) 72%
   );
   box-shadow: 1px 1px 10px 3px rgb(17, 17, 17);
   font-size: 16px;
@@ -98,10 +98,6 @@ body {
 }
 
 .themewhite .caixa {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background: rgb(200, 197, 197);
   background: linear-gradient(
     0deg,
@@ -110,18 +106,9 @@ body {
     rgba(231, 229, 229, 1) 72%
   );
   box-shadow: 1px 5px 30px 6px rgb(132, 129, 129);
-  padding: 25px;
-  border-radius: 14px;
 }
 
 .themewhite .btn {
-  color: rgb(255, 255, 255);
-  transition: 0.4s;
-  margin: 5px;
-  border: none;
-  padding: 20px;
-  cursor: pointer;
-  border-radius: 20px;
   background: linear-gradient(
     0deg,
     rgba(164, 164, 164, 1) 32%,
@@ -129,11 +116,9 @@ body {
     rgba(245, 245, 245, 1) 72%
   );
   box-shadow: 1px 1px 10px 3px rgb(213, 209, 209);
-  font-size: 16px;
 }
 .themewhite .btn:hover {
-  transition: 0.5s;
-  color: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
   box-shadow: 1px 1px 10px 5px rgb(177, 180, 180);
 }
 
@@ -145,19 +130,12 @@ body {
     rgba(241, 236, 236, 1) 39%,
     rgba(204, 200, 200, 1) 72%
   );
-  font-family: "Tourney", cursive;
-  color: rgb(23, 22, 22);
+
   text-shadow: rgb(194, 189, 189) 0.1em 0.1em 0.2em;
-  border-radius: 15px;
-  padding: 10px;
-  cursor: default;
 }
 
 .themewhite .icone {
-  font-size: 20px;
-  transition: 0.3s;
   color: rgb(121, 117, 117);
-  cursor: pointer;
 }
 .themewhite .icone:hover {
   color: rgb(61, 52, 52);
@@ -165,7 +143,6 @@ body {
 }
 
 .themewhite .caixadecores {
-  padding: 100px;
   background: rgb(156, 154, 154);
   background: linear-gradient(
     0deg,
@@ -173,11 +150,8 @@ body {
     rgba(159, 156, 156, 1) 39%,
     rgba(221, 218, 218, 1) 72%
   );
-  border-radius: 15px;
-  cursor: pointer;
-  margin-bottom: 20px;
+
   box-shadow: 1px 1px 10px 5px rgb(176, 181, 181);
-  transition: 0.3s;
 }
 .themewhite .caixadecores:hover {
   box-shadow: 1px 1px 10px 5px rgb(153, 158, 158);
