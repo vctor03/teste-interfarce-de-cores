@@ -71,8 +71,9 @@ h1 {
     rgb(20, 20, 20) 73%
   );
   font-family: "Zeyada", cursive;
-  color: rgb(56, 49, 49);
+  color: rgb(78, 68, 68);
   text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
   border-radius: 15px;
   padding: 10px;
+  cursor: pointer;
 }

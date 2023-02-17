@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .caixa {
+    padding: 20px;
+  }
+
+  .caixadecores {
+    padding: 50px;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+
+  h1 {
+    padding: 6px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .caixadecores {
+    padding: 40px;
+  }
+
+  .btn {
+    padding: 9px;
+  }
+}
+
+@media (max-width: 375px) {
+  .caixadecores {
+    padding: 40px;
+  }
+
+  .btn {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .caixadecores {
+    padding: 40px;
+  }
+
+  .btn {
+    font-size: 11px;
+    padding: 3px;
+  }
+
+  h1 {
+    font-size: 19px;
+  }
+}

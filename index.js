@@ -52,3 +52,7 @@ button8.addEventListener("mouseover", () => {
     "linear-gradient(0deg, rgba(74,43,70,1) 32%, rgba(85,51,79,1) 39%, rgba(142,65,196,1) 72%)"
   );
 });
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal(".caixa", { duration: 7100 });
