@@ -1,0 +1,78 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+}
+
+.caixadecores {
+  padding: 100px;
+  background: rgb(32, 30, 31);
+  background: linear-gradient(
+    0deg,
+    rgba(32, 30, 31, 1) 18%,
+    rgba(32, 30, 31, 1) 39%,
+    rgba(113, 114, 116, 1) 73%
+  );
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 10px 5px rgb(19, 22, 22);
+}
+.caixadecores:hover {
+  box-shadow: 1px 1px 10px 5px rgb(37, 41, 41);
+}
+
+.caixa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgb(24, 23, 23) 18%,
+    rgb(24, 21, 24) 39%,
+    rgb(31, 31, 32) 73%
+  );
+  box-shadow: 1px 5px 30px 6px rgb(15, 15, 15);
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  background: rgb(32, 30, 31);
+  background: linear-gradient(
+    0deg,
+    rgba(32, 30, 31, 1) 18%,
+    rgba(32, 30, 31, 1) 39%,
+    rgba(113, 114, 116, 1) 73%
+  );
+  box-shadow: 1px 1px 10px 3px rgb(17, 17, 17);
+}
+.btn:hover {
+  box-shadow: 1px 1px 10px 5px rgb(49, 54, 54);
+}
+
+h1 {
+  background: linear-gradient(
+    0deg,
+    rgb(83, 80, 80) 18%,
+    rgb(39, 38, 38) 39%,
+    rgb(20, 20, 20) 73%
+  );
+  font-family: "Zeyada", cursive;
+  color: rgb(56, 49, 49);
+  text-shadow: rgb(20, 20, 20) 0.1em 0.1em 0.2em;
+  border-radius: 15px;
+  padding: 10px;
+}
