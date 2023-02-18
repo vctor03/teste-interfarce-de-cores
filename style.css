@@ -28,6 +28,7 @@ body {
   transition: 0.3s;
 }
 .caixadecores:hover {
+  transform: scale(1.1);
   box-shadow: 1px 1px 10px 5px rgb(37, 41, 41);
 }
 
@@ -66,6 +67,7 @@ body {
   font-size: 16px;
 }
 .btn:hover {
+  transform: scale(1.1);
   transition: 0.5s;
   color: white;
   box-shadow: 1px 1px 10px 5px rgb(49, 54, 54);
@@ -109,6 +111,7 @@ body {
 }
 
 .themewhite .btn {
+  color: rgb(142, 147, 145);
   background: linear-gradient(
     0deg,
     rgba(164, 164, 164, 1) 32%,
@@ -118,7 +121,7 @@ body {
   box-shadow: 1px 1px 10px 3px rgb(213, 209, 209);
 }
 .themewhite .btn:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(1, 213, 255);
   box-shadow: 1px 1px 10px 5px rgb(177, 180, 180);
 }
 
