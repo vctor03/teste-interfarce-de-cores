@@ -13,7 +13,6 @@ const themeBtn = document.getElementById("themebtn");
 function mudarCor(color) {
   caixaDeCores.style.background = color;
 }
-alert("Seja bem-vindo ( a )");
 button1.addEventListener("mouseover", () => {
   mudarCor(
     "linear-gradient(0deg, rgba(190,67,67,1) 32%, rgba(190,58,58,1) 39%, rgba(255,98,98,1) 72%)"
